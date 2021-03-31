@@ -1,0 +1,25 @@
+body {
+  background-color:antiquewhite;
+  background-attachment: fixed;
+}
+
+h1 {
+  color:rgb(214, 80, 27);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.4cm; 
+  font-size: 1cm; 
+}
+
+h3 {
+  color: rgb(214, 80, 27);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;  
+  margin: 20px;
+}
+
+p {
+  width: 350px;
+  text-align: center;
+  font-size: 110%;
+  color:black;
+}

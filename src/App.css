@@ -1,0 +1,406 @@
+body {
+  background-color:rgb(250, 229, 202);
+  background-attachment: fixed;
+}
+
+h1 {
+  color:rgb(214, 80, 27);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 160%;  
+}
+
+h3 {
+  color: rgb(214, 80, 27);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;  
+  margin: 20px;
+}
+
+h2 {
+  color: rgb(214, 80, 27);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;  
+  margin: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 110%;
+  color:black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  height: 45px;
+  color: rgb(214, 80, 27);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:grey;
+  color:white;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.bookFormat{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  color: black;
+  font-size: 20px;
+}
+
+.bookAuthor{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  color: black;
+  font-size: 20px;
+}
+
+.bookName{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  color: purple;
+  font-size: 30px;
+}
+
+.bookStatus {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  color: red;
+  font-size: 20px;
+}
+
+.forNumbers{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
+  color: black;
+  font-size: 18px;
+}
+
+.gapCard {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  text-align: center;
+  font-family: arial;
+  padding-top: 12px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+  background-color: rgb(214, 80, 27);
+  color: black;
+}
+
+.aboutCard {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding-left: 1.2cm;
+  width: 450px;
+  margin-top: 1cm;
+  margin-bottom: 10px;
+  margin-left:12cm;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+}
+
+.homePageLinks{
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 3cm;
+  padding-bottom: 4cm;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  float: left;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.search-bar{
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+.login_form{
+  font-size: 20px;
+  padding-top: 10px;
+  width: 450px;
+  margin-left: 450px;
+}
+
+.form-end{
+  margin-bottom: 30px;
+}
+
+.newAccount{
+  text-align: center;
+  padding-top: 0.5cm;
+}
+
+.vendorAction {
+  overflow: hidden;
+  background-color: white;
+}
+
+.vendorAction button {
+  padding: 10px 10px;
+  height: 45px;
+  border-right: white;
+  border-color: white;
+  border-bottom: white;
+  background-color: white;
+  color: rgb(214, 80, 27);
+  text-align: center;
+  float: left;
+  font-size: 17px;
+}
+
+.vendorAction button:hover {
+  background-color:grey;
+  color:white;
+}
+
+.vendorAction button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.heading{
+  text-align: center;
+}
+
+.qty{
+  margin-top: 10px;
+}
+
+.totalBill {
+  position: fixed;
+  bottom: 10px;
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  margin-left: 510px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 1.5cm;
+  max-width: 350px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-family: arial;
+  padding-top: 12px;
+}
+
+.totalBill button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.totalBill button:hover {
+  opacity: 0.7;
+  background-color: rgb(214, 80, 27);
+  color: black;
+}
+
+.arrangeRow {
+  margin-left: 2cm;
+}
+
+.offers {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  color: rgb;
+  font-size: 30px;
+}
+
+.historyTable table {
+  margin-left: 6cm;
+  text-align: center;
+  font-size: 20px;
+}
+
+.historyTable th {
+  column-width: 160px;
+  height: max-content;
+  row-gap: 30cm;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding: 8px;
+  text-align: center;
+}
+
+.impNote {
+  margin-left: 13.5cm;
+  width: 10cm;
+}
+
+.pageGapMaker {
+  height: 5cm;
+  max-height: 10cm;
+  width: 2cm;
+}
+
+.homeImage {
+  margin-top: 40px;
+  width: 900px;
+  height:400px;
+  box-shadow: 10 140px 80px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aboutUs {
+  margin-top: 40px;
+  width: 400px;
+  height:300px;
+  box-shadow: 10 140px 80px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contactUs {
+  margin-top: 40px;
+  width: 650px;
+  height:300px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.mainHeading {
+  width: 36cm;
+  color: purple;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.vendorHistoryTable table {
+  margin-left: 1cm;
+  text-align: center;
+  font-size: 20px;
+  border: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 21px;
+}
+
+.vendorHistoryTable th {
+  column-width: 160px;
+  height: max-content;
+  row-gap: 60cm;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  padding: 8px;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.vendorHistoryTable tr:hover {
+  background-color:lightgrey;
+}
+
+.bookImage {
+  width: 200px;
+  height:300px;
+  align-self: center;
+}
+
+.onlyBookImage {
+  width: 430px;
+  height:600px;
+  align-self: center;
+  padding-right: 1cm;
+}
+
+.onlyBook {
+  padding-top: 30px;
+  text-align: center;
+  margin-left: 1cm;
+}
+
+.bookShow table, td {
+  align-self: center;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.bookShow {
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 8cm;
+}
+
+.tableBookName{
+  text-align: left;
+  color: black;
+}
+
+.orderFont {
+  text-align: center;
+  font-size: 20px;
+}
+
